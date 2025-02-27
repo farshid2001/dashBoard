@@ -1,0 +1,97 @@
+.container {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    min-height: 100vh;
+  }
+  
+  .light-mode {
+    background: #f4f4f4;
+    color: #333;
+  }
+  
+  .dark-mode {
+    background: #1e1e1e;
+    color: #000000;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .search-box {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .toggle-button {
+    padding: 8px 12px;
+    border: none;
+    cursor: pointer;
+    background: #007bff;
+    color: white;
+    border-radius: 4px;
+  }
+  
+  .toggle-button:hover {
+    background: #0056b3;
+  }
+  
+  .user-table {
+    width: 100%;
+    border-collapse: collapse;
+    background: white;
+  }
+  
+  .user-table th, .user-table td {
+    padding: 12px;
+    border: 1px solid #ddd;
+    text-align: left;
+  }
+  
+  .user-table th {
+    background: #877b4c;
+    color: white;
+  }
+  
+  .user-table tr:hover {
+    background: #f1f1f1;
+  }
+  
+  .view-button {
+    background: #28a745;
+    color: white;
+    padding: 6px 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  .view-button:hover {
+    background: #218838;
+  }
+  
+  .user-card {
+    margin-top: 20px;
+    padding: 20px;
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .close-button {
+    margin-top: 10px;
+    padding: 8px 12px;
+    background: #dc3545;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  .close-button:hover {
+    background: #c82333;
+  }
+  
